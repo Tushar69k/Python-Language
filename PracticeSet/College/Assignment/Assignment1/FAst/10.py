@@ -1,0 +1,21 @@
+#  Write a python program to display the data type.
+
+# Python program to display the data type
+
+# Taking input from user
+value = input("Enter any value: ")
+
+# # By default input() gives string, so let's try to detect type
+# Try converting into int or float if possible
+if value.isdigit():
+    value = int(value)
+else:
+    try:
+        value = float(value)
+    except ValueError:
+        # It will remain as string if not a number
+        pass
+
+# Displaying value and its type
+print("You entered:", value)
+print("Data type is:", type(value))
