@@ -1,6 +1,6 @@
 num = 5
 
-print("/t/nPattern 1/t")
+print("\t\nPattern 1\t")
 for i in range (num):
     for j in range(i+1):
         print("*" , end=" ")
@@ -8,7 +8,7 @@ for i in range (num):
 print()
 
 
-print("/t/nPattern 2/t")
+print("\t\nPattern 2\t")
 for i in range(num):
     for j in range(num-1-i):
         print(" " , end=" ")
@@ -19,7 +19,7 @@ for i in range(num):
 print()
 
 
-print("/t/nPattern 3/t")
+print("\t\nPattern 3\t")
 for i in range(num):
     for j in range(i):
         print(" " , end=" ")
@@ -30,7 +30,7 @@ for i in range(num):
 print()
 
 
-print("/t/nPattern 4/t")
+print("\t\nPattern 4\t")
 for i in range(num):
     for j in range(num-i):
         print("*" , end=" ")
@@ -38,7 +38,7 @@ for i in range(num):
 print()
 
 
-print("/t/nPattern 8/t")
+print("\t\nPattern 8\t")
 for i in range(num):
     for j in range(num):
         print("*" , end=" ")

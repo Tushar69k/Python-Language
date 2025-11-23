@@ -20,9 +20,7 @@ se = 0
 so = 0
 for i in range(1,51):
     if(i % 2 == 0):
-        print(i)
         se += i
-        print("SE : " ,se)
     else : 
         so += i    
 print("Sum of first 50 odd numbers =", so)

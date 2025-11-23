@@ -10,10 +10,10 @@ loss = cp - sp
 if( sp > cp):
     print("you are in profit")
     print("Your Profit is : " , profit , " rs")
-    print("Your Profit is " , ((profit/cp) * 100))
+    print("Your Profit is " , ((profit/cp) * 100) , "%")
 else : 
     print("you are in loss")
     print("Your loss is : " , loss , " rs")
-    print("Your loss is " , ((loss/cp) * 100))
+    print("Your loss is " , ((loss/cp) * 100) , "%")
 
 
