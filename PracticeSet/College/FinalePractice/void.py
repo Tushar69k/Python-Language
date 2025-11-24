@@ -1,18 +1,30 @@
-print("Fibonacchi Series Recursive Function")
+class dog : 
+    def voice(self) : 
+        print("Bhow Bhow")
+
+class Cat(dog) : 
+    def voicee(self) : 
+        print("Meow Meow")
+        
+class Cow(Cat) : 
+    def voiceee(self) : 
+        print("Hammaaaaa")
+
+
+d = dog()
+d.voice()
+
+ca = Cat()
+ca.voice()
+        
+co = Cow()
+co.voice()
 
 
 
-def Recursivefun(num) : 
-    if num <= 1 : 
-        return num 
-    else : 
-        return Recursivefun(num - 1) + Recursivefun(num - 2)
-    
+print("Using all Function from single class :: ")
 
-def PrintRecursive() :
-  term = int(input(" Till how many terms you need recursive Function : "))
-  for i in range(term) :
-    print(Recursivefun(i) ,end= " ")
-
-
-PrintRecursive()
+P = Cow()
+P.voice()
+P.voicee()
+P.voiceee()
