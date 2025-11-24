@@ -7,15 +7,12 @@ def show_primes(start, end):
     print(f"Prime numbers between {start} and {end} are:")
 
     for num in range(start, end + 1):
-        if num > 1:   # prime numbers are greater than 1
-            for i in range(2, int(num ** 0.5) + 1):
+        if num > 1:                           # primes start from 2
+            for i in range(2, num):
                 if num % i == 0:
-                    break
+                    break                     # not prime
             else:
                 print(num, end=" ")
 
-# ---- Driver Code ----
-start = int(input("Enter start of range: "))
-end = int(input("Enter end of range: "))
-
-show_primes(start, end)
+# Calling the function with positional arguments
+show_primes(10, 50)

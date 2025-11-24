@@ -1,13 +1,3 @@
-X = frozenset({1, 2, 3, 4})
-Y = frozenset({3, 4, 5, 6})
-Z = frozenset({3, 4})
-
-print("Difference (X - Y):", X - Y)
-print("Symmetric Difference:", X ^ Y)
-print("Intersection:", X & Y & Z)
-print("X is superset of Z:", X.issuperset(Z))
-print("X is subset of Z:", X.issubset(Z))
-print("X and Z are disjoint:", X.isdisjoint(Z))
 
 
 
