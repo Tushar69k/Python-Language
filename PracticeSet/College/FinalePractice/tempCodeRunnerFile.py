@@ -1,2 +1,3 @@
-    for j in range(i):
-        print(" " , end = " ")
+
+# Z.update( 1 : "PRATHAM")
+# print(Z)
