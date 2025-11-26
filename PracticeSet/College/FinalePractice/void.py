@@ -3,6 +3,7 @@ D = {"name": "Tushar", "age": 20, "city": "Indore"}
 print("Original Dictionary:", D)
 
 # 1. get()
+print("JAI HO")
 print("Get name:", D.get("name"))
 print("Get invalid key:", D.get("salary", "Not Found"))
 
