@@ -4,7 +4,7 @@ a function to display all prime numbers between a range which is
 passed as arguments .
 '''
 
-print("Welcome")
+print("Here Money Comes in")
 
 def show_primes(start, end):
     print(f"Prime numbers between {start} and {end} are:")
