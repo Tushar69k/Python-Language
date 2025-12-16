@@ -1,8 +1,11 @@
 '''
 What are the various ways of passing arguments to a function? Write 
 a function to display all prime numbers between a range which is
-passed as arguments.
+passed as arguments .
 '''
+
+print("Welcome")
+
 def show_primes(start, end):
     print(f"Prime numbers between {start} and {end} are:")
 
